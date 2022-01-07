@@ -1,0 +1,34 @@
+body{
+    background-image: url('/assets/landscape.jpg');
+}
+h1{
+    color: chocolate;
+    text-align: center;
+}
+
+.to-do{
+    background-color: transparent;
+    width: 500px;
+    padding: 4px;
+    margin-top: 60px;
+    margin-left: 180px;
+    margin-right: auto; 
+}
+
+.input {
+    border-color: moccasin;
+    align-content: center;
+}
+
+.button {
+    border-color: whitesmoke;
+}
+
+.tasks{
+    background-color: orange;
+    width: 500px;
+    padding: 4px;
+    margin-top: 15px;
+    margin-left: 180px;
+    margin-right: auto;
+}
