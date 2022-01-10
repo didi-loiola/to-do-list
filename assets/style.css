@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
 body{
     background-image: url('/assets/landscape.jpg');
 }
@@ -6,29 +8,35 @@ h1{
     text-align: center;
 }
 
-.to-do{
+.list{
     background-color: transparent;
     width: 500px;
     padding: 4px;
     margin-top: 60px;
     margin-left: 180px;
-    margin-right: auto; 
+    margin-right: auto;
 }
 
-.input {
-    border-color: moccasin;
-    align-content: center;
+.input-task {
+    background-color: transparent;
 }
 
 .button {
-    border-color: whitesmoke;
+    background-color: transparent;
 }
 
 .tasks{
-    background-color: orange;
+    font-size: 20px;
+    font-family: 'Cedarville Cursive', cursive;
+    background-color: transparent;
     width: 500px;
     padding: 4px;
     margin-top: 15px;
     margin-left: 180px;
     margin-right: auto;
 }
+
+:checked + label {
+    text-decoration: line-through;
+    color: grey;
+  }
