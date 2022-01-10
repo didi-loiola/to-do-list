@@ -8,14 +8,14 @@
     <title>To-Do list</title>
 </head>
 <body>
-    <div class="to-do">
+    <div class="list">
         <h1>TO-DO LIST</h1>
-        <input class="input" placeholder="Digite sua tarefa aqui">
-        <button class="button">Adicionar</button>
+        <form id="form-task">
+            <input id="input-task" class="input-task" type="text" placeholder="Digite sua tarefa aqui">
+            <button class="button" type="submit">Adicionar</button>
+        </form>
     </div>
-    <div class="tasks">
-        <p>Nova div</p>
-    </div>
+    <div class="tasks" id="tasks"></div>
     <script src="assets/app.js"></script>
 </body>
 </html>
