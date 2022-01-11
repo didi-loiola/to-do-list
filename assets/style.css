@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
 
 body{
-    background-image: url('/img/landscape.jpg');
+    background-image: url("/img/landscape.jpg");
 }
 h1{
     color: chocolate;
